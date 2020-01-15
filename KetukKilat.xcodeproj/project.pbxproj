@@ -13,6 +13,7 @@
 		BD6F7B8C23CEA7BF00E60B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6F7B8B23CEA7BF00E60B3B /* Assets.xcassets */; };
 		BD6F7B8F23CEA7BF00E60B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6F7B8D23CEA7BF00E60B3B /* LaunchScreen.storyboard */; };
 		BD6F7B9223CEA7BF00E60B3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6F7B9123CEA7BF00E60B3B /* main.m */; };
+		BD6F7B9923CEA84D00E60B3B /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = BD6F7B9823CEA84D00E60B3B /* PORKYS_.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD6F7B8E23CEA7BF00E60B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD6F7B9023CEA7BF00E60B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD6F7B9123CEA7BF00E60B3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD6F7B9823CEA84D00E60B3B /* PORKYS_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = PORKYS_.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				BD6F7B8D23CEA7BF00E60B3B /* LaunchScreen.storyboard */,
 				BD6F7B9023CEA7BF00E60B3B /* Info.plist */,
 				BD6F7B9123CEA7BF00E60B3B /* main.m */,
+				BD6F7B9823CEA84D00E60B3B /* PORKYS_.TTF */,
 			);
 			path = KetukKilat;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				BD6F7B8F23CEA7BF00E60B3B /* LaunchScreen.storyboard in Resources */,
 				BD6F7B8C23CEA7BF00E60B3B /* Assets.xcassets in Resources */,
+				BD6F7B9923CEA84D00E60B3B /* PORKYS_.TTF in Resources */,
 				BD6F7B8A23CEA7BE00E60B3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
