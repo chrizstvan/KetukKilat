@@ -26,24 +26,21 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="OzT-WK-plz">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ketuk Kilat" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iMW-WQ-yax">
-                                <rect key="frame" x="16" y="20" width="343" height="190"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ketuk Kilat" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iMW-WQ-yax">
+                                <rect key="frame" x="16" y="20" width="343" height="187.5"/>
                                 <fontDescription key="fontDescription" name="Porkys" family="Porky's" pointSize="70"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9g2-Xf-7ha">
-                                <rect key="frame" x="16" y="345" width="343" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9g2-Xf-7ha">
+                                <rect key="frame" x="16" y="347" width="343" height="90"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.55120933219178081" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Porkys" family="Porky's" pointSize="67"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvU-QV-LbN">
-                                <rect key="frame" x="16" y="473" width="343" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvU-QV-LbN">
+                                <rect key="frame" x="16" y="473" width="343" height="154"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.55120933219178081" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Porkys" family="Porky's" pointSize="45"/>
                                 <state key="normal" title="Start">
@@ -53,9 +50,8 @@
                                     <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wYV-hJ-Wv1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H77-Tj-3G8">
-                                <rect key="frame" x="16" y="239" width="346" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H77-Tj-3G8">
+                                <rect key="frame" x="16" y="239" width="346" height="90"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.55120933219178081" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Porkys" family="Porky's" pointSize="67"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -64,10 +60,23 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H77-Tj-3G8" secondAttribute="trailing" constant="13" id="10I-Fl-LQJ"/>
+                            <constraint firstItem="iMW-WQ-yax" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2H4-lw-jE0"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="qvU-QV-LbN" secondAttribute="bottom" constant="40" id="2fZ-7Y-b0h"/>
+                            <constraint firstItem="9g2-Xf-7ha" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="J03-qO-Pyc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iMW-WQ-yax" secondAttribute="trailing" constant="16" id="PQt-yl-aMy"/>
+                            <constraint firstItem="H77-Tj-3G8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Sm7-pD-o7G"/>
+                            <constraint firstItem="iMW-WQ-yax" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="V3D-kH-Udi"/>
+                            <constraint firstItem="qvU-QV-LbN" firstAttribute="top" secondItem="9g2-Xf-7ha" secondAttribute="bottom" constant="36" id="WCa-ut-XIi"/>
+                            <constraint firstItem="qvU-QV-LbN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aMw-UR-nyN"/>
                             <constraint firstAttribute="bottom" secondItem="OzT-WK-plz" secondAttribute="bottom" id="fzB-x7-CYm"/>
+                            <constraint firstItem="9g2-Xf-7ha" firstAttribute="top" secondItem="H77-Tj-3G8" secondAttribute="bottom" constant="18" id="kSs-OQ-ckS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9g2-Xf-7ha" secondAttribute="trailing" constant="16" id="lad-hy-aON"/>
+                            <constraint firstItem="H77-Tj-3G8" firstAttribute="top" secondItem="iMW-WQ-yax" secondAttribute="bottom" constant="31.5" id="mzV-dV-mnG"/>
                             <constraint firstItem="OzT-WK-plz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sfO-qH-0ok"/>
                             <constraint firstItem="OzT-WK-plz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="u7p-As-ejg"/>
                             <constraint firstItem="OzT-WK-plz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vrn-7e-hma"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qvU-QV-LbN" secondAttribute="trailing" constant="16" id="zGU-V1-odH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
